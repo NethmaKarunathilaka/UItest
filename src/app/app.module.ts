@@ -12,6 +12,7 @@ import { PostJobAdComponent } from './company-portal/components/post-job-ad/post
 import { PostJobAdConfirmComponent } from './company-portal/components/post-job-ad-confirm/post-job-ad-confirm.component';
 import { SubHeaderComponent } from './company-portal/components/post-job-ad/sub-header/sub-header.component';
 import { AdvertisementViewComponent } from './seeker-portal/components/advertisement-view/advertisement-view.component';
+import { AdvertisementHeaderComponent } from './seeker-portal/components/advertisement-header/advertisement-header.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { AdvertisementViewComponent } from './seeker-portal/components/advertise
     PostJobAdConfirmComponent,
     SubHeaderComponent,
     AdvertisementViewComponent,
+    AdvertisementHeaderComponent,
    
   ],
   imports: [
