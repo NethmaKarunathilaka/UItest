@@ -1,7 +1,11 @@
+hr{
+    width: 60%;
+}
+
 .detail{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -10,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 1.5em;
-    width: 25em;
+    width: 23em;
 }
 
 .detail-inner{
@@ -21,7 +25,7 @@
     width: 22.5em;
 }
 
-.detail-head {
+.detail-head, .detail-head-left {
     color: black;
     font-size: 17px;
     font-family: Lato;
@@ -30,6 +34,10 @@
     word-wrap: break-word;
     text-align: right;
     width: 9em;
+}
+
+.detail-head-left {
+    width: 6em;
 }
 
 .detail-data {
@@ -44,9 +52,10 @@
 }
 
 .section{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .heading {
@@ -64,5 +73,5 @@
     font-style: italic;
     font-weight: 700;
     word-wrap: break-word;
-    margin-top: 1.2em;
+    margin-top: 0.75em;
 }
